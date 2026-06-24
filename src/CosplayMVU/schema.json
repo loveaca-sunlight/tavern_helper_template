@@ -1,0 +1,113 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "角色": {
+      "type": "object",
+      "properties": {
+        "樱桃": {
+          "$ref": "#/$defs/__schema0"
+        },
+        "坂坂白": {
+          "$ref": "#/$defs/__schema0"
+        },
+        "小水": {
+          "$ref": "#/$defs/__schema0"
+        },
+        "施梦露": {
+          "$ref": "#/$defs/__schema0"
+        }
+      },
+      "required": [
+        "樱桃",
+        "坂坂白",
+        "小水",
+        "施梦露"
+      ]
+    },
+    "系统": {
+      "type": "object",
+      "properties": {
+        "点数": {
+          "type": "number"
+        },
+        "现状概括": {
+          "type": "string"
+        },
+        "建议1": {
+          "type": "string"
+        },
+        "建议2": {
+          "type": "string"
+        },
+        "建议3": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "点数",
+        "现状概括",
+        "建议1",
+        "建议2",
+        "建议3"
+      ]
+    }
+  },
+  "required": [
+    "角色",
+    "系统"
+  ],
+  "$defs": {
+    "__schema0": {
+      "type": "object",
+      "properties": {
+        "在场": {
+          "type": "boolean"
+        },
+        "年龄": {
+          "type": "number"
+        },
+        "好感度": {
+          "type": "number"
+        },
+        "高潮值": {
+          "type": "number"
+        },
+        "角色扮演": {
+          "type": "string"
+        },
+        "服装详情": {
+          "type": "string"
+        },
+        "情绪": {
+          "type": "string"
+        },
+        "口腔": {
+          "type": "string"
+        },
+        "小穴": {
+          "type": "string"
+        },
+        "胸部": {
+          "type": "string"
+        },
+        "行为": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "在场",
+        "年龄",
+        "好感度",
+        "高潮值",
+        "角色扮演",
+        "服装详情",
+        "情绪",
+        "口腔",
+        "小穴",
+        "胸部",
+        "行为"
+      ]
+    }
+  }
+}
